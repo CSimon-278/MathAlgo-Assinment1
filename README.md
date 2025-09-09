@@ -53,11 +53,11 @@ The simulation includes plots for:
 ---
 
 ## 📁 Repository Structure
-📦 MathAlgo-Assignment1
- ┣ 📜 MATLAB-Simulation.m    # MATLAB Code for the Simulation 
- ┣ 📜 MATLAB-Testing.m       # MATLAB Code for testing different sampling frequency / bits values 
- ┣ 📁 images/                # Screenshots of plots 
- ┗ 📜 README.md              # This file
+📦 MathAlgo-Assignment1  
+ ┣ 📜 MATLAB-Simulation.m    # MATLAB Code for the Simulation  
+ ┣ 📜 MATLAB-Testing.m       # MATLAB Code for testing different sampling frequency / bits values  
+ ┣ 📁 images/                # Screenshots of plots  
+ ┗ 📜 README.md              # This file  
 
 ---
 
