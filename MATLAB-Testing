@@ -47,5 +47,22 @@ for Fs = Fs_values
         xlabel('Time (s)');
         ylabel('Amplitude');
         subplot_idx = subplot_idx + 1;
+
+        binary_codes = dec2bin(x_index, bits);
+        bitstream = reshape(binary_codes.',1,[]);
+
+        disp([num2str(bits) '-bits Quant @ ' num2str(Fs) ' Hz']);
+
+        if bits == 3
+            disp('--- First 8 encoded samples ---');
+            disp(binary_codes(1:8));
+            disp('--- First 8 bits of the stream ---');
+            disp(bitstream(1:8));
+        else
+            disp('--- First 10 encoded samples ---');
+            disp(binary_codes(1:10));
+            disp('--- First 10 bits of the stream ---');
+            disp(bitstream(1:10));
+        end
     end
 end
